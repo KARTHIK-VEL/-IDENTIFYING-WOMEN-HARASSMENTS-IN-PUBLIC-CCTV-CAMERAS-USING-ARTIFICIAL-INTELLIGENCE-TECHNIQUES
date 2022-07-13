@@ -74,3 +74,64 @@ User Feedback
 
 * Prevent the occurrences of event before harassment happens
 
+# Environment setup:
+
+1. Install Anaconda:
+
+ https://www.anaconda.com/download/
+ 
+2.Creating an environment with commands
+
+   * To create an environment:
+   
+           conda create --name myenv
+     
+     !Note:
+     Replace myenv with the environment name.
+   
+   * When conda asks you to proceed, type y:
+   
+           proceed ([y]/n)?
+           
+     This creates the myenv environment in /envs/. No packages will be installed in this environment.
+
+     !Note:
+Replace myenv with the environment name or or directory path.
+       
+3. Activating an environment
+  
+  * To activate an environment:
+       
+           conda activate myenv
+       
+4. Install Python packages
+
+     * Tkinter
+     * Numpy
+     * OpenCV
+     * Keras
+     * os
+     * cvlib
+     * Twilio
+
+   Install the required packages by executing the following command.
+
+       pip install (package name)
+    
+       example:
+  
+           $ pip install numpy
+           
+    Make sure pip is linked to Python
+    
+    Using Python virtual environment is highly recommended.
+    
+    ## Usage:
+    
+    webcam
+              $ python gender_webcam.py
+              $ python human_webcam.py
+              
+              
+     When you run the script for the first time, it will download the pre-trained model from this link and place it under pre-trained directory in the current path.
+    
