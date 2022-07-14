@@ -141,7 +141,11 @@ Replace myenv with the environment name or or directory path.
               $ python human.py
               
      When you run the script for the first time, it will download the pre-trained model from this link and place it under pre-trained directory in the current path.
-    
-    ## Help
+     
+## output 
+
+    https://youtu.be/p4SF9obtEZo
+
+## Help
     
     If you are facing any difficulty, feel free to create a new issue or reach out on [Linkedin](https://www.linkedin.com/in/karthik-v-926656211/)
